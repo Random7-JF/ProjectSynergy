@@ -22,7 +22,8 @@ window/size/viewport_width=768
 window/size/viewport_height=432
 window/size/window_width_override=1920
 window/size/window_height_override=1080
-window/stretch/mode="viewport"
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
 
 [input]
 
@@ -54,4 +55,3 @@ move_right={
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
-2d/snap/snap_2d_vertices_to_pixel=true

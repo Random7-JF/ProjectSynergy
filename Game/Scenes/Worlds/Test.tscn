@@ -3861,6 +3861,7 @@ sources/1 = SubResource("TileSetAtlasSource_asdet")
 [node name="Test" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
+texture_filter = 1
 tile_set = SubResource("TileSet_m4eoy")
 format = 2
 layer_0/name = "Floor"
@@ -3877,4 +3878,3 @@ position = Vector2(328, 166)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 process_callback = 0
-position_smoothing_enabled = true

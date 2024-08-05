@@ -7,10 +7,13 @@
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_x2oct")
+speed = 150.0
+accel = 12.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CapsuleShape2D_d7uwh")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
 scale = Vector2(0.25, 0.25)
 texture = ExtResource("1_vgd32")
