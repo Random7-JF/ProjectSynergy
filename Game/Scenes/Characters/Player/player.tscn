@@ -5,10 +5,10 @@
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_d7uwh"]
 
-[node name="Player" type="CharacterBody2D"]
+[node name="Player" type="CharacterBody2D" groups=["player"]]
 script = ExtResource("1_x2oct")
-speed = 150.0
-accel = 12.0
+speed = 250.0
+accel = 20.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CapsuleShape2D_d7uwh")
