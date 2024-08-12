@@ -9,7 +9,7 @@ var player: Player
 func _ready():
 	player = get_tree().get_first_node_in_group("player")
 
-func _physics_process(delta):
+func _physics_process(_delta):
 	if player:
 		var direction: Vector2 = global_position.direction_to(player.global_position)
 		velocity.x = move_toward(velocity.x, speed * direction.x, accel)

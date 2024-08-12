@@ -19,26 +19,26 @@ texture = ExtResource("1_wltm3")
 
 [node name="Detection" type="Node2D" parent="."]
 
-[node name="RayCast2D" type="RayCast2D" parent="Detection"]
+[node name="Down" type="RayCast2D" parent="Detection"]
 target_position = Vector2(0, 30)
 
-[node name="RayCast2D2" type="RayCast2D" parent="Detection"]
+[node name="DownRight" type="RayCast2D" parent="Detection"]
 target_position = Vector2(23, 23)
 
-[node name="RayCast2D3" type="RayCast2D" parent="Detection"]
+[node name="Right" type="RayCast2D" parent="Detection"]
 target_position = Vector2(30, 0)
 
-[node name="RayCast2D8" type="RayCast2D" parent="Detection"]
+[node name="UpRight" type="RayCast2D" parent="Detection"]
 target_position = Vector2(23, -23)
 
-[node name="RayCast2D4" type="RayCast2D" parent="Detection"]
+[node name="Up" type="RayCast2D" parent="Detection"]
 target_position = Vector2(0, -30)
 
-[node name="RayCast2D5" type="RayCast2D" parent="Detection"]
+[node name="UpLeft" type="RayCast2D" parent="Detection"]
 target_position = Vector2(-23, -23)
 
-[node name="RayCast2D6" type="RayCast2D" parent="Detection"]
+[node name="Left" type="RayCast2D" parent="Detection"]
 target_position = Vector2(-30, 0)
 
-[node name="RayCast2D7" type="RayCast2D" parent="Detection"]
+[node name="DownLeft" type="RayCast2D" parent="Detection"]
 target_position = Vector2(-23, 23)
