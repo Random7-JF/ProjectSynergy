@@ -16,3 +16,29 @@ shape = SubResource("RectangleShape2D_mkttm")
 modulate = Color(0.731331, 0.134289, 0.264865, 1)
 scale = Vector2(0.25, 0.25)
 texture = ExtResource("1_wltm3")
+
+[node name="Detection" type="Node2D" parent="."]
+
+[node name="RayCast2D" type="RayCast2D" parent="Detection"]
+target_position = Vector2(0, 30)
+
+[node name="RayCast2D2" type="RayCast2D" parent="Detection"]
+target_position = Vector2(23, 23)
+
+[node name="RayCast2D3" type="RayCast2D" parent="Detection"]
+target_position = Vector2(30, 0)
+
+[node name="RayCast2D8" type="RayCast2D" parent="Detection"]
+target_position = Vector2(23, -23)
+
+[node name="RayCast2D4" type="RayCast2D" parent="Detection"]
+target_position = Vector2(0, -30)
+
+[node name="RayCast2D5" type="RayCast2D" parent="Detection"]
+target_position = Vector2(-23, -23)
+
+[node name="RayCast2D6" type="RayCast2D" parent="Detection"]
+target_position = Vector2(-30, 0)
+
+[node name="RayCast2D7" type="RayCast2D" parent="Detection"]
+target_position = Vector2(-23, 23)
