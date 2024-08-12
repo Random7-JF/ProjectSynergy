@@ -4,16 +4,17 @@
 [ext_resource type="Script" path="res://Scenes/Characters/Player/player.gd" id="1_x2oct"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_d7uwh"]
+height = 32.0
 
 [node name="Player" type="CharacterBody2D" groups=["player"]]
 script = ExtResource("1_x2oct")
 speed = 250.0
 accel = 20.0
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CapsuleShape2D_d7uwh")
-
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
 scale = Vector2(0.25, 0.25)
 texture = ExtResource("1_vgd32")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_d7uwh")
